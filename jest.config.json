@@ -1,0 +1,22 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "roots": ["<rootDir>/src", "<rootDir>/__tests__"],
+  "testMatch": ["**/__tests__/**/*.ts", "**/?(*.)+(spec|test).ts"],
+  "collectCoverageFrom": [
+    "src/**/*.ts",
+    "!src/**/*.test.ts",
+    "!src/**/*.spec.ts",
+    "!src/index.ts",
+    "!__tests__/**/*.ts"
+  ],
+  "coverageDirectory": "coverage",
+  "coverageReporters": ["text", "lcov", "html"],
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/src/$1",
+    "^chalk$": "<rootDir>/__mocks__/chalk.js",
+    "^chalk/(.*)$": "<rootDir>/__mocks__/chalk.js"
+  },
+  "moduleFileExtensions": ["ts", "js", "json"],
+  "transformIgnorePatterns": ["node_modules/@inquirer/editor"]
+}

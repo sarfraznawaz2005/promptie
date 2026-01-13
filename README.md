@@ -22,13 +22,13 @@ Promptie is a powerful CLI tool that lets you write AI prompts once and apply th
 
 ## Key Features
 
-✨ **Multi-Tool Support** - Apply prompts to Claude, Gemini, Codex, Cursor, Zed, Warp, Aider, RooCode, and more
-🔍 **Fuzzy Search** - Find prompts by name or content with intelligent matching
-🔄 **Import/Export** - Backup, share, and transfer your prompts
-🏠 **Global Storage** - Store prompts in OS-specific config directories
-🗂️ **Category Management** - Organize prompts with custom categories
-🔧 **Variable Substitution** - Use placeholders like {{name}} for dynamic prompt content
-📊 **Statistics & Analytics** - Track prompt usage and get insights with the stats command
+- ✨ **Multi-Tool Support** - Apply prompts to Claude, Gemini, Codex, Cursor, Zed, Warp, Aider, RooCode, and more
+- 🔍 **Fuzzy Search** - Find prompts by name or content with intelligent matching
+- 🔄 **Import/Export** - Backup, share, and transfer your prompts
+- 🏠 **Global Storage** - Store prompts in OS-specific config directories
+- 🗂️ **Category Management** - Organize prompts with custom categories
+- 🔧 **Variable Substitution** - Use placeholders like {{name}} for dynamic prompt content
+- 📊 **Statistics & Analytics** - Track prompt usage and get insights with the stats command
 
 ## Installation
 
